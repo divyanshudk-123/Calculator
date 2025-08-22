@@ -157,7 +157,7 @@ document.addEventListener('keydown', event => {
         event.preventDefault();
         calculator.compute();
         calculator.updateDisplay();
-    } else if (event.key === 'Backspace') {
+    } else if (event.key === 'Backspaces') {
         calculator.delete();
         calculator.updateDisplay();
     } else if (event.key === 'Escape') {
